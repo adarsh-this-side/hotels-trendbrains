@@ -1,227 +1,101 @@
-<html lang="en-US">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="refresh" content="3;url=https://www.oyorooms.com/?utm_medium=2792&utm_source=Social_O_web">
-    <title>Trendbrains</title>
-    <meta name="robots" content="NOINDEX, NOFOLLOW">
-    <link rel="shortcut icon" href="https://hotels.trendbrains.com/images/favicon.png" type="image/x-icon">
-    <style>
-        @import url(//fonts.googleapis.com/css?family=Lato:300,400,700,900);
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-        * {
-            margin: 0;
-            padding: 0;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            -webkit-tap-highlight-color: transparent;
-        }
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-        body {
-            -ms-text-size-adjust: 100%;
-            -webkit-text-size-adjust: 100%;
-            font-family: Lato, sans-serif;
-        }
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-        img {
-            border: 0;
-        }
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
 
-        .fw {
-            width: 100%;
-        }
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
 
-        .fl {
-            float: left;
-        }
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flights_trendbrains">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-        .intermediary {
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .intermediary .hd_1 {
-            font-size: 24px;
-            color: #333333;
-            font-weight: 700;
-            line-height: 40px;
-            padding-top: 25px;
-            display: inline-block;
-        }
-
-        .intermediary .hd_2 {
-            font-size: 18px;
-            line-height: 24px;
-            color: #666666;
-            display: inline-block;
-            padding: 10px 10px 0 10px;
-            font-weight: 400;
-        }
-
-        .intermediary_d {
-            border-radius: 4px;
-            border: 1px solid #e6e6e6;
-            padding: 30px 0 20px;
-            width: 791px;
-        }
-
-        .inter_h {
-            padding-top: 40px;
-        }
-
-        .inter_h img {
-            margin-right: 40px;
-            vertical-align: middle;
-        }
-
-        .inter_h img:first-child+img+img {
-            margin-right: 0;
-        }
-
-        .inter_h span {
-            line-height: 60px;
-            vertical-align: middle;
-            display: inline-block;
-            font-size: 18px;
-            color: #333333;
-            font-weight: 700;
-        }
-
-        .auto_redirct {
-            display: inline-block;
-            width: 85%;
-            border-top: 1px solid #e6e6e6;
-            padding-top: 20px;
-            margin: 30px 0 0;
-        }
-
-        .auto_redirct p {
-            font-size: 13px;
-            color: #333333;
-        }
-
-        .auto_redirct p a {
-            color: #0099cc;
-            font-weight: 700;
-        }
-
-        @media (max-width:821px) {
-            .intermediary_d {
-                width: calc(100% - 30px);
-            }
-        }
-
-        @media (max-width:599px) {
-            .intermediary_d {
-                width: calc(100% - 20px);
-            }
-
-            .intermediary .hd_1 {
-                font-size: 16px;
-                line-height: 20px;
-                padding-top: 15px;
-            }
-
-            .intermediary .hd_2 {
-                font-size: 14px;
-                line-height: 18px;
-            }
-
-            .intermediary .hd_2 br {
-                display: none;
-            }
-
-            .intermediary_d {
-                padding: 20px 0 10px;
-            }
-
-            .unsign_sign_cash img {
-                width: 70px;
-                height: 70px;
-            }
-
-            .inter_h {
-                padding-top: 15px;
-            }
-
-            .inter_h span {
-                font-size: 16px;
-            }
-
-            .inter_h img {
-                margin-right: 20px;
-                width: 90px;
-                height: auto;
-            }
-
-            .inter_h img:first-child+img {
-                width: 56px;
-            }
-
-            .inter_h img:first-child+img+img {
-                width: 56px;
-            }
-
-            .auto_redirct {
-                margin: 15px 0 0;
-                padding-top: 10px;
-                width: 100%;
-            }
-
-            .auto_redirct p {
-                font-size: 11px;
-            }
-        }
-    </style>
-    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
-    <script type="text/javascript" async="" src="https://d2r1yp2w7bby2u.cloudfront.net/js/a.js"></script>
-    <script async="" src="https://cdn.branch.io/branch-latest.min.js"></script>
-
-    <!-- Google Tag Manager -->
- 
-    <!-- End Google Tag Manager -->
-   
+  <title>flights_trendbrains</title>
+  <link rel="manifest" href="manifest.json">
 </head>
-
 <body>
-    <section class="intermediary">
-        <div class="intermediary_d">
-            <div class="fl fw ac unsign_sign_cash">
-                <img src="https://hotels.trendbrains.com/images/oyo-logo.png" alt="Redirect"
-                    id="imgNoCashbackIntermediate">
-            </div>
-            <!--Only signed user other stores start-->
-            <!-- <h1 class="fw hd_1" id="lblIntermediateTxt1"></h1>
-            <h2 class="fw hd_2" id="lblIntermediateTxt2"></h2> -->
-            <!--Only signed user other stores end-->
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    var serviceWorkerVersion = '3451451483';
+    var scriptLoaded = false;
+    function loadMainDartJs() {
+      if (scriptLoaded) {
+        return;
+      }
+      scriptLoaded = true;
+      var scriptTag = document.createElement('script');
+      scriptTag.src = 'main.dart.js';
+      scriptTag.type = 'application/javascript';
+      document.body.append(scriptTag);
+    }
 
-            <div class="fl fw inter_h">
-                <!--Our Image (our_image_url)-->
-                <!-- <img src="https://hotels.trendbrains.com/images/trendbrains-logo.png" width="200" height="29"
-                    alt="trendbrains" id="imgIntermediateCKLogo"> -->
-                <!--Progress Image (progress_image_url)-->
-                <img src="https://hotels.trendbrains.com/images/intermediary_animation.gif" width="56" height="16"
-                    alt="loading..." id="imgIntermediateLoader">
-                <!--Merchant Logo Image (merchant_image_url)-->
-                <!-- <img src="https://hotels.trendbrains.com/images/oyo-logo.png" width="120" height="60" alt="OYO India"
-                    id="imgIntermediateRetailerLogo"> -->
-                <!--Merchant Logo Image-->
-            </div>
-            <div class="auto_redirct">
-                <p id="lblIntermediateTxt3">If you are not automatically re-directed, please <a class="link"
-                        id="lnkIntermediateRedirectClick"
-                        href="https://www.oyorooms.com/?utm_medium=2792&utm_source=Social_O_web" rel="nofollow"
-                        title="Click">click here</a></p>
-            </div>
-        </div>
-    </section>
+    if ('serviceWorker' in navigator) {
+      // Service workers are supported. Use them.
+      window.addEventListener('load', function () {
+        // Wait for registration to finish before dropping the <script> tag.
+        // Otherwise, the browser will load the script multiple times,
+        // potentially different versions.
+        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+        navigator.serviceWorker.register(serviceWorkerUrl)
+          .then((reg) => {
+            function waitForActivation(serviceWorker) {
+              serviceWorker.addEventListener('statechange', () => {
+                if (serviceWorker.state == 'activated') {
+                  console.log('Installed new service worker.');
+                  loadMainDartJs();
+                }
+              });
+            }
+            if (!reg.active && (reg.installing || reg.waiting)) {
+              // No active web worker and we have installed or are installing
+              // one for the first time. Simply wait for it to activate.
+              waitForActivation(reg.installing || reg.waiting);
+            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
+              // When the app updates the serviceWorkerVersion changes, so we
+              // need to ask the service worker to update.
+              console.log('New service worker available.');
+              reg.update();
+              waitForActivation(reg.installing);
+            } else {
+              // Existing service worker is still good.
+              console.log('Loading app from service worker.');
+              loadMainDartJs();
+            }
+          });
 
-
-
+        // If service worker doesn't succeed in a reasonable amount of time,
+        // fallback to plaint <script> tag.
+        setTimeout(() => {
+          if (!scriptLoaded) {
+            console.warn(
+              'Failed to load app from service worker. Falling back to plain <script> tag.',
+            );
+            loadMainDartJs();
+          }
+        }, 4000);
+      });
+    } else {
+      // Service workers not supported. Just drop the <script> tag.
+      loadMainDartJs();
+    }
+  </script>
+</body>
 </html>
