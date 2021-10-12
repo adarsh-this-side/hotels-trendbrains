@@ -376,6 +376,7 @@ img{
         width:58.3333333333%
     }
     .col-sm-8{
+        align-items: center;
         flex:0 0 auto;
         width:66.6666666667%
     }
@@ -738,6 +739,7 @@ img{
     padding-left:1.5rem!important
 }
 .px-5{
+    align-items: center;
     padding-right:3rem!important;
     padding-left:3rem!important
 }
@@ -846,6 +848,8 @@ img{
         padding:3rem!important
     }
     .px-sm-0{
+        align-content: center;
+        align-items: center;
         padding-right:0!important;
         padding-left:0!important
     }
